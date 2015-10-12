@@ -14,6 +14,7 @@
 		8E01727B1BCC47200073B6A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E01727A1BCC47200073B6A7 /* Images.xcassets */; };
 		8E01727E1BCC47200073B6A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E01727C1BCC47200073B6A7 /* LaunchScreen.xib */; };
 		8E01728A1BCC47200073B6A7 /* CoreMotionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0172891BCC47200073B6A7 /* CoreMotionDemoTests.m */; };
+		8E0172981BCC49580073B6A7 /* Motion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0172971BCC49580073B6A7 /* Motion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8E0172831BCC47200073B6A7 /* CoreMotionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMotionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E0172881BCC47200073B6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E0172891BCC47200073B6A7 /* CoreMotionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreMotionDemoTests.m; sourceTree = "<group>"; };
+		8E0172961BCC49580073B6A7 /* Motion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Motion.h; path = CoreMotionDemo.xcodeproj/../Motion.h; sourceTree = SOURCE_ROOT; };
+		8E0172971BCC49580073B6A7 /* Motion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Motion.m; path = CoreMotionDemo.xcodeproj/../Motion.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		8E01726C1BCC47200073B6A7 /* CoreMotionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8E0172961BCC49580073B6A7 /* Motion.h */,
+				8E0172971BCC49580073B6A7 /* Motion.m */,
 				8E0172711BCC47200073B6A7 /* AppDelegate.h */,
 				8E0172721BCC47200073B6A7 /* AppDelegate.m */,
 				8E0172741BCC47200073B6A7 /* ViewController.h */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E0172761BCC47200073B6A7 /* ViewController.m in Sources */,
+				8E0172981BCC49580073B6A7 /* Motion.m in Sources */,
 				8E0172731BCC47200073B6A7 /* AppDelegate.m in Sources */,
 				8E0172701BCC47200073B6A7 /* main.m in Sources */,
 			);

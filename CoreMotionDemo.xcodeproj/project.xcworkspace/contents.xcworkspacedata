@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../Motion.h">
+   </FileRef>
+   <FileRef
+      location = "group:../Motion.m">
+   </FileRef>
+   <FileRef
       location = "self:CoreMotionDemo.xcodeproj">
    </FileRef>
 </Workspace>
